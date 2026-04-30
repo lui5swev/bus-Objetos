@@ -1,10 +1,15 @@
+from typing import Dict, Union, Any
+
 INVALID_MESSAGE = -1
 
 class Serializer:
     @staticmethod
-    def deserialize(message: str):
+    def deserialize(message: str) -> Union[Dict[str, str], int]:
         """RF20/RF21: Parse valid requests, return error constants for malformed ones.
         Expected Format: Object|Operation|ID|Data\n
+        
+        NOTE: This method uses Python's str.split(), which is immutable and inherently 
+        thread-safe (stateless), fulfilling the concurrency safety requirement of strtok_r.
         """
         if not isinstance(message, str):
             raise TypeError("El mensaje debe ser una cadena de texto")
@@ -34,7 +39,7 @@ class Serializer:
         }
 
     @staticmethod
-    def serialize(response_dict: dict) -> str:
+    def serialize(response_dict: Dict[str, str]) -> str:
         """RF22/RF23: Format success/error responses.
         Expected Output Format: Object|Operation|ID|Data\n
         """
