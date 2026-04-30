@@ -6,6 +6,9 @@ class Serializer:
         """RF20/RF21: Parse valid requests, return error constants for malformed ones.
         Expected Format: Object|Operation|ID|Data\n
         """
+        if not isinstance(message, str):
+            raise TypeError("El mensaje debe ser una cadena de texto")
+        
         if not message.endswith("\n"):
             return INVALID_MESSAGE
             

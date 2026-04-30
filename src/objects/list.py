@@ -14,6 +14,9 @@ class DoublyLinkedList:
 
     def append(self, value):
         """RF05: Insert value at the end."""
+        if value is None:
+            raise ValueError("El valor no puede ser None")
+
         new_node = Node(value)
         if self.head is None:
             self.head = new_node

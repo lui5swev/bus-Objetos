@@ -11,6 +11,9 @@ class DynamicStack:
 
     def push(self, value):
         """RF10: Push value."""
+        if value is None:
+            raise ValueError("El valor no puede ser None")
+
         new_node = Node(value)
         new_node.next = self.top
         self.top = new_node
