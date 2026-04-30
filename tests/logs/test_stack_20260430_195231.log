@@ -1,0 +1,24 @@
+=== Test run for test_stack started at 20260430_195231 ===
+
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_01_apilar_valor_valido_vacia: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_02_apilar_multiples_valores: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_03_apilar_cadena_vacia: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_04_apilar_cadena_larga: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_05_apilar_valor_nulo_invalido: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_06_desapilar_elemento_unico_limite: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_07_desapilar_elementos_LIFO: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_08_desapilar_pila_vacia_limite: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_09_desapilar_tras_vaciar: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_10_desapilar_intercalado_push: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_11_observar_elemento_unico: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_12_observar_no_altera_pila: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_13_observar_pila_vacia_limite: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_14_observar_tras_multiples_push: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_15_observar_tras_pop: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_16_vacia_inicialmente: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_17_no_vacia_con_elemento: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_18_vacia_tras_pop: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_19_no_vacia_multiples_elementos: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_20_estado_consistente_tras_error: PASSED
+
+=== Test run finished with status 0 ===

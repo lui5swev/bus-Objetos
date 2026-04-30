@@ -1,0 +1,15 @@
+=== Test run for test_serializer started at 20260430_195231 ===
+
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_01_deserializar_valido: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_02_deserializar_sin_salto_linea: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_03_deserializar_faltan_campos: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_04_deserializar_campos_vacios: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_05_deserializar_nulo: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_06_deserializar_datos_vacios_valido: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_07_serializar_exito_completo: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_08_serializar_error: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_09_serializar_diccionario_incompleto: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_10_serializar_diccionario_vacio: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_11_serializar_diccionario_nulo: PASSED
+
+=== Test run finished with status 0 ===

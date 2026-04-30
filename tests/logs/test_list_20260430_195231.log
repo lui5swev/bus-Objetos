@@ -1,0 +1,29 @@
+=== Test run for test_list started at 20260430_195231 ===
+
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_01_insertar_valor_valido: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_02_insertar_multiples_valores: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_03_insertar_cadena_vacia: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_04_insertar_cadena_larga: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_05_insertar_valor_nulo_invalido: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_06_obtener_posicion_cero_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_07_obtener_posicion_intermedia_valida: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_08_obtener_posicion_superior_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_09_obtener_fuera_rango_inferior_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_10_obtener_fuera_rango_superior_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_11_remover_cabeza_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_12_remover_cola_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_13_remover_medio: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_14_remover_fuera_rango_inferior: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_15_remover_fuera_rango_superior: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_16_tamano_vacia: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_17_tamano_un_elemento: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_18_tamano_multiples_elementos: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_19_tamano_tras_remover: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_20_tamano_remover_invalido: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_21_contiene_existente_cabeza: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_22_contiene_existente_cola: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_23_contiene_inexistente: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_24_contiene_en_lista_vacia: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_25_contiene_valor_nulo_invalido: PASSED
+
+=== Test run finished with status 0 ===
