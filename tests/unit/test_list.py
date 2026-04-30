@@ -1,6 +1,7 @@
 import pytest
 from src.objects.list import DoublyLinkedList, OUT_OF_BOUNDS
 
+
 class TestDoublyLinkedList:
     def setup_method(self):
         self.dll = DoublyLinkedList()

@@ -3,10 +3,12 @@ import threading
 
 EMPTY_STRUCTURE = "EMPTY_STRUCTURE"
 
+
 class Node:
     def __init__(self, value: Any) -> None:
         self.value = value
         self.next: Optional['Node'] = None
+
 
 class DynamicStack:
     def __init__(self) -> None:
@@ -47,7 +49,7 @@ class DynamicStack:
         """RF13: Check if empty."""
         with self.lock:
             return self.is_empty_unlocked()
-            
+
     def is_empty_unlocked(self) -> bool:
         """Internal lock-free check for empty state"""
         return self.top is None

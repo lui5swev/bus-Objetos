@@ -3,11 +3,13 @@ import threading
 
 OUT_OF_BOUNDS = "OUT_OF_BOUNDS"
 
+
 class Node:
     def __init__(self, value: Any) -> None:
         self.value = value
         self.next: Optional['Node'] = None
         self.prev: Optional['Node'] = None
+
 
 class DoublyLinkedList:
     def __init__(self) -> None:
@@ -38,7 +40,7 @@ class DoublyLinkedList:
         with self.lock:
             if position < 0 or position >= self.size:
                 return OUT_OF_BOUNDS
-            
+
             current = self.head
             for _ in range(position):
                 if current:
@@ -50,25 +52,25 @@ class DoublyLinkedList:
         with self.lock:
             if position < 0 or position >= self.size:
                 return OUT_OF_BOUNDS
-            
+
             current = self.head
             for _ in range(position):
                 if current:
                     current = current.next
-                
+
             if current is None:
                 return OUT_OF_BOUNDS
-                
+
             if current.prev:
                 current.prev.next = current.next
             else:
                 self.head = current.next
-                
+
             if current.next:
                 current.next.prev = current.prev
             else:
                 self.tail = current.prev
-                
+
             self.size -= 1
             return current.value
 

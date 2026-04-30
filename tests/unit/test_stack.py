@@ -1,6 +1,7 @@
 import pytest
 from src.objects.stack import DynamicStack, EMPTY_STRUCTURE
 
+
 class TestDynamicStack:
     def setup_method(self):
         self.stack = DynamicStack()

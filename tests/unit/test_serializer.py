@@ -1,6 +1,7 @@
 import pytest
 from src.protocol.serializer import Serializer, INVALID_MESSAGE
 
+
 class TestSerializer:
     # --- TESTS PARA deserialize(message) ---
     def test_cp_serializador_01_deserializar_valido(self):
