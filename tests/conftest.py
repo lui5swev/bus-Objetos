@@ -11,12 +11,12 @@ def pytest_configure(config):
     global SESSION_TIMESTAMP, ROOT_DIR, LOG_FILE
     SESSION_TIMESTAMP = datetime.now().strftime('%Y%m%d_%H%M%S')
     ROOT_DIR = str(config.rootdir)
-    
+
     log_dir = os.path.join(ROOT_DIR, 'tests', 'logs')
     os.makedirs(log_dir, exist_ok=True)
-    
+
     LOG_FILE = os.path.join(log_dir, "test_runs.log")
-    
+
     with open(LOG_FILE, 'a') as f:
         f.write(f"=== Test run started at {SESSION_TIMESTAMP} ===\n\n")
 
