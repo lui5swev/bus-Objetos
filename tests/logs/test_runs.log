@@ -59,7 +59,7 @@ tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_20_estado_consistente_t
 
 === Test run finished with status 0 ===
 
-=== Test run started at 20260512_220258 ===
+=== Test run started at 20260511_171037 ===
 
 tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_01_insertar_valor_valido: PASSED
 tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_02_insertar_multiples_valores: PASSED
@@ -119,4 +119,391 @@ tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_19_no_vacia_multiples_e
 tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_20_estado_consistente_tras_error: PASSED
 
 === Test run finished with status 0 ===
+
+=== Test run started at 20260512_175307 ===
+
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_01_insertar_raiz: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_02_insertar_menor_izquierdo: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_03_insertar_mayor_derecho: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_04_insertar_duplicado_excepcion: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_05_insertar_nulo_excepcion: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_06_insertar_multiples_niveles: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_07_buscar_en_arbol_vacio: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_08_buscar_raiz: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_09_buscar_hoja: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_10_buscar_inexistente: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_11_buscar_valores_negativos: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_12_eliminar_hoja: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_13_eliminar_nodo_con_un_hijo: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_14_eliminar_nodo_con_dos_hijos: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_15_eliminar_raiz: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_16_eliminar_inexistente: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_17_eliminar_en_arbol_vacio: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_18_inorden_vacio: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_19_inorden_un_elemento: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_20_inorden_ordenado: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_21_inorden_cadenas: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_22_inorden_tras_eliminar: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_23_altura_vacio: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_24_altura_raiz: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_25_altura_lineal: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_26_altura_balanceado: PASSED
+tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_27_altura_tras_eliminar: PASSED
+
+=== Test run finished with status 0 ===
+
+=== Test run started at 20260512_175338 ===
+
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_01_crear_lista: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_02_crear_pila: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_03_crear_arbol: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_04_crear_duplicado: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_05_crear_tipo_desconocido: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_06_crear_case_insensitive: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_07_obtener_existente: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_08_obtener_inexistente: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_09_obtener_independencia_locks: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_10_obtener_consistencia_instancia: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_11_obtener_tras_creacion_masiva: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_12_eliminar_existente: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_13_eliminar_inexistente: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_14_eliminar_recrear: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_15_eliminar_vacio: PASSED
+tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_16_eliminar_aislamiento: PASSED
+
+=== Test run finished with status 0 ===
+
+=== Test run started at 20260512_175423 ===
+
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_01_create_ok: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_02_create_ya_existe: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_03_create_tipo_desconocido: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_04_destroy_ok: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_05_destroy_no_existe: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_06_comando_vacio: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_07_objeto_no_existe: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_08_tipo_incoherente_al_despachar: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_09_operacion_desconocida: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_10_captura_excepcion_generica: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_11_lista_append: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_12_lista_size: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_13_lista_get: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_14_lista_remove: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_15_lista_contains: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_16_pila_push: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_17_pila_pop: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_18_pila_peek: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_19_pila_isempty: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_20_pila_vacia_pop: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_21_arbol_insert: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_22_arbol_search: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_23_arbol_delete: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_24_arbol_inorder: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_25_arbol_height: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_26_arbol_duplicado: PASSED
+tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_27_arbol_valor_invalido: PASSED
+
+=== Test run finished with status 0 ===
+
+=== Inicio de Ejecución de Pruebas: 20260512_175455 ===
+
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_01_create_ok -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_02_create_ya_existe -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_03_create_tipo_desconocido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_04_destroy_ok -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_05_destroy_no_existe -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_06_comando_vacio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_07_objeto_no_existe -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_08_tipo_incoherente_al_despachar -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_09_operacion_desconocida -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_10_captura_excepcion_generica -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_11_lista_append -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_12_lista_size -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_13_lista_get -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_14_lista_remove -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_15_lista_contains -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_16_pila_push -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_17_pila_pop -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_18_pila_peek -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_19_pila_isempty -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_20_pila_vacia_pop -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_21_arbol_insert -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_22_arbol_search -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_23_arbol_delete -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_24_arbol_inorder -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_25_arbol_height -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_26_arbol_duplicado -> PASSED
+[17:54:56] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_27_arbol_valor_invalido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_01_insertar_valor_valido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_02_insertar_multiples_valores -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_03_insertar_cadena_vacia -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_04_insertar_cadena_larga -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_05_insertar_valor_nulo_invalido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_06_obtener_posicion_cero_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_07_obtener_posicion_intermedia_valida -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_08_obtener_posicion_superior_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_09_obtener_fuera_rango_inferior_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_10_obtener_fuera_rango_superior_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_11_remover_cabeza_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_12_remover_cola_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_13_remover_medio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_14_remover_fuera_rango_inferior -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_15_remover_fuera_rango_superior -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_16_tamano_vacia -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_17_tamano_un_elemento -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_18_tamano_multiples_elementos -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_19_tamano_tras_remover -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_20_tamano_remover_invalido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_21_contiene_existente_cabeza -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_22_contiene_existente_cola -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_23_contiene_inexistente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_24_contiene_en_lista_vacia -> PASSED
+[17:54:56] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_25_contiene_valor_nulo_invalido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_01_crear_lista -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_02_crear_pila -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_03_crear_arbol -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_04_crear_duplicado -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_05_crear_tipo_desconocido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_06_crear_case_insensitive -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_07_obtener_existente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_08_obtener_inexistente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_09_obtener_independencia_locks -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_10_obtener_consistencia_instancia -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_11_obtener_tras_creacion_masiva -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_12_eliminar_existente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_13_eliminar_inexistente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_14_eliminar_recrear -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_15_eliminar_vacio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_16_eliminar_aislamiento -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_01_deserializar_valido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_02_deserializar_sin_salto_linea -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_03_deserializar_faltan_campos -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_04_deserializar_campos_vacios -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_05_deserializar_nulo -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_06_deserializar_datos_vacios_valido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_07_serializar_exito_completo -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_08_serializar_error -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_09_serializar_diccionario_incompleto -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_10_serializar_diccionario_vacio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_11_serializar_diccionario_nulo -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_01_apilar_valor_valido_vacia -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_02_apilar_multiples_valores -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_03_apilar_cadena_vacia -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_04_apilar_cadena_larga -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_05_apilar_valor_nulo_invalido -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_06_desapilar_elemento_unico_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_07_desapilar_elementos_LIFO -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_08_desapilar_pila_vacia_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_09_desapilar_tras_vaciar -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_10_desapilar_intercalado_push -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_11_observar_elemento_unico -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_12_observar_no_altera_pila -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_13_observar_pila_vacia_limite -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_14_observar_tras_multiples_push -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_15_observar_tras_pop -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_16_vacia_inicialmente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_17_no_vacia_con_elemento -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_18_vacia_tras_pop -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_19_no_vacia_multiples_elementos -> PASSED
+[17:54:56] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_20_estado_consistente_tras_error -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_01_insertar_raiz -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_02_insertar_menor_izquierdo -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_03_insertar_mayor_derecho -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_04_insertar_duplicado_excepcion -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_05_insertar_nulo_excepcion -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_06_insertar_multiples_niveles -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_07_buscar_en_arbol_vacio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_08_buscar_raiz -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_09_buscar_hoja -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_10_buscar_inexistente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_11_buscar_valores_negativos -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_12_eliminar_hoja -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_13_eliminar_nodo_con_un_hijo -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_14_eliminar_nodo_con_dos_hijos -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_15_eliminar_raiz -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_16_eliminar_inexistente -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_17_eliminar_en_arbol_vacio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_18_inorden_vacio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_19_inorden_un_elemento -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_20_inorden_ordenado -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_21_inorden_cadenas -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_22_inorden_tras_eliminar -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_23_altura_vacio -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_24_altura_raiz -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_25_altura_lineal -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_26_altura_balanceado -> PASSED
+[17:54:56] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_27_altura_tras_eliminar -> PASSED
+
+=== Fin de Ejecución con estado: 0 ===
+
+=== Inicio de Ejecución de Pruebas: 20260512_175630 ===
+
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_ser_disp_01_flujo_normal -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_ser_disp_02_trama_malformada -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_ser_disp_03_operacion_desconocida -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_server_01_creacion_destruccion -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_server_02_id_inexistente -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_server_03_colision_ids -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_01_pila_vacia -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_02_lista_fuera_rango -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_03_arbol_duplicado -> PASSED
+[17:56:31] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_04_flujo_completo_mutacion -> PASSED
+
+=== Fin de Ejecución con estado: 0 ===
+
+=== Inicio de Ejecución de Pruebas: 20260512_175707 ===
+
+[17:57:07] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_01_creacion_masiva_competitiva -> PASSED
+[17:57:07] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_02_escritura_concurrente_misma_lista -> PASSED
+[17:57:07] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_03_apilado_concurrente_misma_pila -> PASSED
+[17:57:07] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_04_insercion_concurrente_arbol -> PASSED
+[17:57:07] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_05_aislamiento_operaciones_independientes -> PASSED
+
+=== Fin de Ejecución con estado: 0 ===
+
+=== Inicio de Ejecución de Pruebas: 20260512_175716 ===
+
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_ser_disp_01_flujo_normal -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_ser_disp_02_trama_malformada -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_ser_disp_03_operacion_desconocida -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_server_01_creacion_destruccion -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_server_02_id_inexistente -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_server_03_colision_ids -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_01_pila_vacia -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_02_lista_fuera_rango -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_03_arbol_duplicado -> PASSED
+[17:57:17] [INTEGRATION] tests/integration/test_interfaces.py::TestIntegracionInterfaces::test_integ_disp_estructuras_04_flujo_completo_mutacion -> PASSED
+[17:57:17] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_01_creacion_masiva_competitiva -> PASSED
+[17:57:17] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_02_escritura_concurrente_misma_lista -> PASSED
+[17:57:17] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_03_apilado_concurrente_misma_pila -> PASSED
+[17:57:17] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_04_insercion_concurrente_arbol -> PASSED
+[17:57:17] [SYSTEM] tests/system/test_concurrency.py::TestConcurrenciaSistema::test_conc_05_aislamiento_operaciones_independientes -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_01_create_ok -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_02_create_ya_existe -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_03_create_tipo_desconocido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_04_destroy_ok -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_05_destroy_no_existe -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_06_comando_vacio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_07_objeto_no_existe -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_08_tipo_incoherente_al_despachar -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_09_operacion_desconocida -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_10_captura_excepcion_generica -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_11_lista_append -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_12_lista_size -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_13_lista_get -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_14_lista_remove -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_15_lista_contains -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_16_pila_push -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_17_pila_pop -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_18_pila_peek -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_19_pila_isempty -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_20_pila_vacia_pop -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_21_arbol_insert -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_22_arbol_search -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_23_arbol_delete -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_24_arbol_inorder -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_25_arbol_height -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_26_arbol_duplicado -> PASSED
+[17:57:17] [UNIT] tests/unit/test_dispatcher.py::TestDespachador::test_cp_despachador_27_arbol_valor_invalido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_01_insertar_valor_valido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_02_insertar_multiples_valores -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_03_insertar_cadena_vacia -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_04_insertar_cadena_larga -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_05_insertar_valor_nulo_invalido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_06_obtener_posicion_cero_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_07_obtener_posicion_intermedia_valida -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_08_obtener_posicion_superior_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_09_obtener_fuera_rango_inferior_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_10_obtener_fuera_rango_superior_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_11_remover_cabeza_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_12_remover_cola_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_13_remover_medio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_14_remover_fuera_rango_inferior -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_15_remover_fuera_rango_superior -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_16_tamano_vacia -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_17_tamano_un_elemento -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_18_tamano_multiples_elementos -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_19_tamano_tras_remover -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_20_tamano_remover_invalido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_21_contiene_existente_cabeza -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_22_contiene_existente_cola -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_23_contiene_inexistente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_24_contiene_en_lista_vacia -> PASSED
+[17:57:17] [UNIT] tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_25_contiene_valor_nulo_invalido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_01_crear_lista -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_02_crear_pila -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_03_crear_arbol -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_04_crear_duplicado -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_05_crear_tipo_desconocido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_06_crear_case_insensitive -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_07_obtener_existente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_08_obtener_inexistente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_09_obtener_independencia_locks -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_10_obtener_consistencia_instancia -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_11_obtener_tras_creacion_masiva -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_12_eliminar_existente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_13_eliminar_inexistente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_14_eliminar_recrear -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_15_eliminar_vacio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_object_server.py::TestServidorObjetos::test_cp_servidor_16_eliminar_aislamiento -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_01_deserializar_valido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_02_deserializar_sin_salto_linea -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_03_deserializar_faltan_campos -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_04_deserializar_campos_vacios -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_05_deserializar_nulo -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_06_deserializar_datos_vacios_valido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_07_serializar_exito_completo -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_08_serializar_error -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_09_serializar_diccionario_incompleto -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_10_serializar_diccionario_vacio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_11_serializar_diccionario_nulo -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_01_apilar_valor_valido_vacia -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_02_apilar_multiples_valores -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_03_apilar_cadena_vacia -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_04_apilar_cadena_larga -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_05_apilar_valor_nulo_invalido -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_06_desapilar_elemento_unico_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_07_desapilar_elementos_LIFO -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_08_desapilar_pila_vacia_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_09_desapilar_tras_vaciar -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_10_desapilar_intercalado_push -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_11_observar_elemento_unico -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_12_observar_no_altera_pila -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_13_observar_pila_vacia_limite -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_14_observar_tras_multiples_push -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_15_observar_tras_pop -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_16_vacia_inicialmente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_17_no_vacia_con_elemento -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_18_vacia_tras_pop -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_19_no_vacia_multiples_elementos -> PASSED
+[17:57:17] [UNIT] tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_20_estado_consistente_tras_error -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_01_insertar_raiz -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_02_insertar_menor_izquierdo -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_03_insertar_mayor_derecho -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_04_insertar_duplicado_excepcion -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_05_insertar_nulo_excepcion -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_06_insertar_multiples_niveles -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_07_buscar_en_arbol_vacio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_08_buscar_raiz -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_09_buscar_hoja -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_10_buscar_inexistente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_11_buscar_valores_negativos -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_12_eliminar_hoja -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_13_eliminar_nodo_con_un_hijo -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_14_eliminar_nodo_con_dos_hijos -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_15_eliminar_raiz -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_16_eliminar_inexistente -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_17_eliminar_en_arbol_vacio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_18_inorden_vacio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_19_inorden_un_elemento -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_20_inorden_ordenado -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_21_inorden_cadenas -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_22_inorden_tras_eliminar -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_23_altura_vacio -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_24_altura_raiz -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_25_altura_lineal -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_26_altura_balanceado -> PASSED
+[17:57:17] [UNIT] tests/unit/test_tree.py::TestArbolBinarioBusqueda::test_cp_arbol_27_altura_tras_eliminar -> PASSED
+
+=== Fin de Ejecución con estado: 0 ===
 
