@@ -59,3 +59,64 @@ tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_20_estado_consistente_t
 
 === Test run finished with status 0 ===
 
+=== Test run started at 20260512_220258 ===
+
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_01_insertar_valor_valido: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_02_insertar_multiples_valores: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_03_insertar_cadena_vacia: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_04_insertar_cadena_larga: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_05_insertar_valor_nulo_invalido: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_06_obtener_posicion_cero_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_07_obtener_posicion_intermedia_valida: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_08_obtener_posicion_superior_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_09_obtener_fuera_rango_inferior_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_10_obtener_fuera_rango_superior_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_11_remover_cabeza_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_12_remover_cola_limite: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_13_remover_medio: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_14_remover_fuera_rango_inferior: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_15_remover_fuera_rango_superior: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_16_tamano_vacia: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_17_tamano_un_elemento: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_18_tamano_multiples_elementos: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_19_tamano_tras_remover: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_20_tamano_remover_invalido: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_21_contiene_existente_cabeza: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_22_contiene_existente_cola: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_23_contiene_inexistente: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_24_contiene_en_lista_vacia: PASSED
+tests/unit/test_list.py::TestDoublyLinkedList::test_cp_lista_25_contiene_valor_nulo_invalido: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_01_deserializar_valido: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_02_deserializar_sin_salto_linea: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_03_deserializar_faltan_campos: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_04_deserializar_campos_vacios: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_05_deserializar_nulo: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_06_deserializar_datos_vacios_valido: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_07_serializar_exito_completo: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_08_serializar_error: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_09_serializar_diccionario_incompleto: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_10_serializar_diccionario_vacio: PASSED
+tests/unit/test_serializer.py::TestSerializer::test_cp_serializador_11_serializar_diccionario_nulo: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_01_apilar_valor_valido_vacia: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_02_apilar_multiples_valores: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_03_apilar_cadena_vacia: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_04_apilar_cadena_larga: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_05_apilar_valor_nulo_invalido: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_06_desapilar_elemento_unico_limite: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_07_desapilar_elementos_LIFO: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_08_desapilar_pila_vacia_limite: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_09_desapilar_tras_vaciar: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_10_desapilar_intercalado_push: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_11_observar_elemento_unico: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_12_observar_no_altera_pila: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_13_observar_pila_vacia_limite: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_14_observar_tras_multiples_push: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_15_observar_tras_pop: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_16_vacia_inicialmente: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_17_no_vacia_con_elemento: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_18_vacia_tras_pop: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_19_no_vacia_multiples_elementos: PASSED
+tests/unit/test_stack.py::TestDynamicStack::test_cp_pila_20_estado_consistente_tras_error: PASSED
+
+=== Test run finished with status 0 ===
+
