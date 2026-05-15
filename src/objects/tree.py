@@ -93,7 +93,7 @@ class ArbolBinarioBusqueda:
     def inorden(self) -> List[Any]:
         """Realiza un recorrido inorden del árbol y retorna una lista de valores."""
         with self.lock:
-            resultado = []
+            resultado: List[Any] = []
             self._inorden_recursivo(self.raiz, resultado)
             return resultado
 

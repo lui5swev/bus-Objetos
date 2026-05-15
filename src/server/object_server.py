@@ -24,7 +24,7 @@ class ServidorObjetos:
             if id_objeto in self.registro:
                 return False
                 
-            instancia = None
+            instancia: Any = None
             tipo = tipo_objeto.lower()
             if tipo == "list":
                 instancia = DoublyLinkedList()
