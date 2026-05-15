@@ -48,10 +48,12 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        if [ -f tests/logs/test_runs.log ]; then
-          git add tests/logs/test_runs.log
-          git commit -m "docs: append test logs" || echo "No logs to commit"
+        
+        # Encontrar archivos log en lugar de uno fijo
+        if ls tests/logs/test_runs_*.log 1> /dev/null 2>&1; then
+          git add tests/logs/test_runs_*.log
+          git commit -m "docs: append daily test logs" || echo "No logs to commit"
           git push
         else
-          echo "No log file found to commit."
+          echo "No log files found to commit."
         fi

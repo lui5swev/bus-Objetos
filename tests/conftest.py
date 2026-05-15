@@ -9,16 +9,20 @@ ROOT_DIR = None
 
 def pytest_configure(config):
     global SESSION_TIMESTAMP, ROOT_DIR, LOG_FILE
-    SESSION_TIMESTAMP = datetime.now().strftime('%Y%m%d_%H%M%S')
+    now = datetime.now()
+    SESSION_TIMESTAMP = now.strftime('%H:%M:%S')
+    current_date = now.strftime('%Y-%m-%d')
     ROOT_DIR = str(config.rootdir)
 
     log_dir = os.path.join(ROOT_DIR, 'tests', 'logs')
     os.makedirs(log_dir, exist_ok=True)
 
-    LOG_FILE = os.path.join(log_dir, "test_runs.log")
+    LOG_FILE = os.path.join(log_dir, f"test_runs_{current_date}.log")
 
     with open(LOG_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"=== Inicio de Ejecución de Pruebas: {SESSION_TIMESTAMP} ===\n\n")
+        f.write(f"\n======================================================\n")
+        f.write(f"=== Ejecución iniciada a las: {SESSION_TIMESTAMP} ===\n")
+        f.write(f"======================================================\n\n")
 
 
 def pytest_runtest_logreport(report):
