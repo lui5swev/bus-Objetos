@@ -186,3 +186,24 @@ class TestDespachador:
         instancia.insertar = MagicMock(side_effect=ValueError("Valor nulo no permitido"))
         resp = self.despachador.procesar_comando({"object": "tree", "operation": "insert", "id": "t1", "data": "None"})
         assert resp["data"] == "ERROR_VALOR_INVALIDO"
+
+
+    def test_cp_despachador_28_arbol_eliminar_inexistente(self):
+        """Intento de eliminar un valor que no existe en el árbol. Debe retornar ERROR_VALOR_NO_ENCONTRADO."""
+        self.servidor.crear_objeto("tree", "t_elim")
+        self.despachador.procesar_comando({"object": "tree", "operation": "insert", "id": "t_elim", "data": "10"})
+        resp = self.despachador.procesar_comando({"object": "tree", "operation": "delete", "id": "t_elim", "data": "99"})
+        assert resp["data"] == "ERROR_VALOR_NO_ENCONTRADO"
+
+    def test_cp_despachador_29_arbol_conflicto_tipos(self):
+        """Intento de mezclar tipos (letras en un árbol de números). Debe retornar ERROR_TIPO_INVALIDO."""
+        self.servidor.crear_objeto("tree", "t_tipos")
+        self.despachador.procesar_comando({"object": "tree", "operation": "insert", "id": "t_tipos", "data": "5"})
+        resp = self.despachador.procesar_comando({"object": "tree", "operation": "insert", "id": "t_tipos", "data": "Hola"})
+        assert resp["data"] == "ERROR_TIPO_INVALIDO"
+
+    def test_cp_despachador_30_pila_rechazar_negativos(self):
+        """Intento de apilar un número negativo en la pila. Debe retornar ERROR_VALOR_NEGATIVO."""
+        self.servidor.crear_objeto("stack", "p_neg")
+        resp = self.despachador.procesar_comando({"object": "stack", "operation": "push", "id": "p_neg", "data": "-5"})
+        assert resp["data"] == "ERROR_VALOR_NEGATIVO"

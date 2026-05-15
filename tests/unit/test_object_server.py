@@ -120,3 +120,15 @@ class TestServidorObjetos:
         self.servidor.crear_objeto("stack", "id_2")
         self.servidor.eliminar_objeto("id_1")
         assert self.servidor.obtener_objeto("id_2") is not None
+
+    def test_cp_servidor_17_crear_objeto_id_vacio_lanza_error(self):
+        """Intentar crear un objeto con ID vacío debe lanzar ValueError."""
+        with pytest.raises(ValueError, match="El ID no puede estar vacío"):
+            self.servidor.crear_objeto("list", "")
+
+    def test_cp_servidor_18_crear_objeto_limite_capacidad(self):
+        """El servidor no debe permitir crear más de 100 objetos para proteger la memoria."""
+        for i in range(100):
+            self.servidor.crear_objeto("list", f"obj_{i}")
+        exito = self.servidor.crear_objeto("list", "obj_extra")
+        assert exito is False, "El servidor permitió exceder la capacidad máxima"

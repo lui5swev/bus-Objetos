@@ -195,3 +195,9 @@ class TestArbolBinarioBusqueda:
         assert self.arbol.altura() == 2
         self.arbol.eliminar(5)
         assert self.arbol.altura() == 1
+
+    def test_cp_arbol_28_buscar_valor_nulo_lanza_error(self):
+        """Buscar un valor None en el árbol debe lanzar ValueError."""
+        self.arbol.insertar(10)
+        with pytest.raises(ValueError, match="El valor a buscar no puede ser None"):
+            self.arbol.buscar(None)
